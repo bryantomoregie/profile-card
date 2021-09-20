@@ -20,13 +20,31 @@ body {
   justify-content: center;
 }
 
-.info {
-  background-color: white;
+.container {
+  position: relative;
 }
 
-img {
+p {
+  margin-bottom: 10px;
+}
+
+.info {
+  background-color: white;
+  border-radius: 0 0 1em 1em;
+}
+
+.bg {
   display: block;
   border-radius: 1em 1em 0 0;
+}
+
+.victor {
+  display: block;
+  border-radius: 50%;
+  border: 5px solid white;
+  position: absolute;
+  top: 80px;
+  left: 120px;
 }
 
 .top-data {
@@ -51,4 +69,27 @@ span {
   font-family: "Kumbh Sans", sans-serif;
   font-weight: 400;
   color: hsl(0, 0%, 59%);
+}
+
+.bottom-data {
+  display: flex;
+}
+
+.social {
+  text-align: center;
+  flex-grow: 1;
+  padding: 1.5em;
+}
+
+.num {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.title {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 300;
+  color: hsl(0, 0%, 59%);
+  font-size: 12px;
 }
